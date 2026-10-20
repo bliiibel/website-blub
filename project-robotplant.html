@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>RobotPlant Project</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="about.html" class="nav-link">About Me</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h1>RobotPlant</h1>
+        <p class="intro-text">A plant-care project built with an ESP32 C3 and sensors to help you keep your plants healthy.</p>
+        <article class="project-card">
+            <video src="images/robotplant1.mp4" class="project-image" controls></video>
+            <div class="project-content">
+                <h2>RobotPlant</h2>
+                <p class="project-date">Date: January 2026</p>
+                <p class="project-description">
+                    RobotPlant is a home plant monitoring system that measures soil moisture, light level, and temperature.
+                    It helps me know when to water plants and keeps them alive by sending real-time data through a small display.
+                </p>
+                <h3>What I built</h3>
+                <ul>
+                    <li>ESP32 C3 supermini controller</li>
+                    <li>Capacitive soil moisture sensor</li>
+                    <li>Light sensor</li>
+                    <li>Temperature sensor</li>
+                    <li>OLED display and alert system</li>
+                </ul>
+                <h3>Skills gained</h3>
+                <p>Embedded systems, sensor wiring, basic Python, microcontroller programming, and hardware prototyping.</p>
+                <a href="projects.html" class="project-link">Back to Projects →</a>
+            </div>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

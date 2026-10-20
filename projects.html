@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects - Isabel Gia Han</title>
+</head>
+<body>
+    <!-- Right Navigation Bar -->
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="about.html" class="nav-link">About Me</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1 class="typed-heading">My Projects</h1>
+        <p class="intro-text">On this page I showcase some of the projects I've worked on. If you are interested in my process check out my INSTAGRAM!</p>
+
+        <div class="year-tabs">
+            <button class="year-tab active" data-target="year1">Year 1</button>
+            <button class="year-tab" data-target="year2">Year 2</button>
+            <button class="year-tab" data-target="year3">Year 3</button>
+        </div>
+
+        <div id="year1" class="year-panel active">
+        <!-- FAYE AND ISABEL END ASSIGNMENT -->
+
+
+        <!-- PROJECT 1 -->
+        <article class="project-card">
+            <video src="images/robotplant1.mp4" alt="robotplant1.mov" class="project-image" controls></video>
+            <div class="project-content">
+                <h2>Project: RobotPlant</h2>
+                <p class="project-date">Date: 2026</p>
+                <p class="project-description">
+                    To keep my precious plants alive I designed my own RobotPlant with an ESP32 C3 supermini to remind me when to water my plants.
+                    She tells me their soil levels, room humidity and how much light they receive!
+                    Main components: Capacative Soil Sensor, Light Sensor, Temperature Sensor, OLED Display
+                </p>
+                    Skills aquired during this project: 
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Basic Python</span>
+                    <span class="tag">Soldering</span>
+                    <span class="tag">YOLO</span>
+                </div>
+                <a href="project-robotplant.html" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card">
+            <video src="images/Studypet MEOW.mp4" alt="StudyPet MEOW" class="project-image" controls></video>
+            <div class="project-content">
+                <h2>Project: StudyPet MEOW</h2>
+                <p class="project-date">Date: 2025</p>
+                <p class="project-description">
+                    To battle my short attention span I created my own tamagochi StudyPet MEOW. She knows when you are close by and focused and when you turn your back on her.
+                    Not to be affraid as she becomes happy when you have accomplished your study goal without any unfocused moments!
+                    To really have her love you, you can keep a streak of studydays!
+                </p>
+                 Skills aquired during this project:
+            </p> 
+                <div class="project-tags">
+                    <span class="tag">Client- Server Connection</span>
+                    <span class="tag">Processing</span>
+                    <span class="tag">Arduino IDE</span>
+                </div>
+                <a href="project-studypet.html" class="project-link">View Project →</a>
+            </div>
+        </article>
+<article class="project-card">
+            <iframe src="games/aquarium/index.html?embed=1" title="Faye and Isabel's Aquarium game" class="project-image aquarium-preview" loading="lazy"></iframe>
+            <div class="project-content">
+                <h2>Project: Aquarium</h2>
+                <p class="project-date"> Date:2026 · Faye &amp; Isabel end assignment</p>
+                <p class="project-description">
+                  We were inspired by Frutiger Aero, so we made a minimalistic aquarium for a zen vibe, sort of like the relaxing feeling of playing the offline no-wifi game. For our final assignment, we created a peaceful but lively underwater world that you can actively explore. 
+                  Before diving in, the experience begins with a playful start screen where you can choose to play as a squid, a turtle, a seal, or a seahorse. 
+                  Once you enter the aquarium, you are greeted by a soothing environment featuring gently moving sand at the bottom and natural, swaying corals.
+                  The coding topics covered include object-oriented programming, event handling, vectors, flocking and collision behavior, mass-spring systems, and more. 
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Processing</span>
+                    <span class="tag">Physics simulation</span>
+                    <span class="tag">Game Design</span>
+                    <span class="tag">Generative Art</span>
+                </div>
+                <a href="games/aquarium/index.html" class="project-link" target="_blank" rel="noopener">Play fullscreen →</a><br>
+                <a href="downloads/Faye_Isabel_2026_endassignment.zip" class="project-link" download>Download original Processing source →</a>
+            </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card">
+            <video src="images/Đẹp gái.mp4" alt="Project 3" class="project-image" controls></video>
+            <div class="project-content">
+                <h2>Project: Animation Dep Gai</h2>
+                <p class="project-date">Date:2022</p>
+                <p class="project-description">
+                    A short animation about Asian beauty standards and the pressure to conform to them. I created this animation with the app Procreate. 
+
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Procreate</span>
+                    <span class="tag">Narrative Design</span>
+                    <span class="tag">Digital Art</span>
+                </div>
+                <a href="project-animation.html" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <!-- Add more projects by duplicating the project-card section above -->
+        </div>
+        <div id="year2" class="year-panel">
+        <article class="project-card">
+            <iframe src="games/tune-it-out/index.html" title="Tune It Out game" class="project-image" style="border:0; aspect-ratio:16/9; width:100%; max-width:480px; min-height:0;" loading="lazy"></iframe>
+            <div class="project-content">
+                <h2>Project: Tune It Out</h2>
+                <p class="project-date">Date: 2026</p>
+                <p class="project-description">
+                    A misophonia awareness game made in Processing. The game is based on reserach done on the medical condition misophonia. The triggers are based on 
+                    real research and experiences of people. Game Play: You are a student with headphones on, trying to finish an essay
+                    while trigger sounds keep coming. Every time, your character freezes and your body reacts.
+                    Click the game and type the text on the screen. TAB mutes the sound. Content note: loud sounds and flashing.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Processing</span>
+                    <span class="tag">Sound Design</span>
+                    <span class="tag">Game Design</span>
+                </div>
+                <a href="games/tune-it-out/index.html" class="project-link" target="_blank">Play fullscreen →</a><br>
+                <a href="downloads/TuneItOut-source.zip" class="project-link" download>Download Processing source →</a>
+            </div>
+        </article>
+        </div>
+        <div id="year3" class="year-panel">
+            <p class="intro-text">Coming soon!</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
